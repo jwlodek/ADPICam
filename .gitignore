@@ -13,3 +13,11 @@ configure/*.local
 O.*/
 *~
 *.swp
+
+libPt*
+libPv*
+libSimple*
+libEb*
+libG*
+lib*gcc*
+libp*
