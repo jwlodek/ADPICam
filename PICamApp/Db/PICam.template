@@ -2453,7 +2453,7 @@ record(bi, "$(P)$(R)EnableModulationOutputSignal_RBV")
     field(SCAN, "I/O Intr")
 }
 
-record(ao, "$(P)$(R)ModulationOutputSignalFrequency")
+record(ao, "$(P)$(R)ModOutputSignalFrequency")
 {
    field(PINI, "YES")
    field(DTYP, "asynFloat64")
@@ -2461,7 +2461,7 @@ record(ao, "$(P)$(R)ModulationOutputSignalFrequency")
    field(PREC, "3")
 }
 
-record(ai, "$(P)$(R)ModulationOutputSignalFrequency_RBV")
+record(ai, "$(P)$(R)ModOutputSignalFrequency_RBV")
 {
    field(DTYP, "asynFloat64")
    field(INP,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PICAM_MODULATION_OUTPUT_SIGNAL_FREQUENCY")
@@ -2469,7 +2469,7 @@ record(ai, "$(P)$(R)ModulationOutputSignalFrequency_RBV")
    field(SCAN, "I/O Intr")
 }
 
-record(ao, "$(P)$(R)ModulationOutputSignalAmplitude")
+record(ao, "$(P)$(R)ModOutputSignalAmplitude")
 {
    field(PINI, "YES")
    field(DTYP, "asynFloat64")
@@ -2477,7 +2477,7 @@ record(ao, "$(P)$(R)ModulationOutputSignalAmplitude")
    field(PREC, "3")
 }
 
-record(ai, "$(P)$(R)ModulationOutputSignalAmplitude_RBV")
+record(ai, "$(P)$(R)ModOutputSignalAmplitude_RBV")
 {
    field(DTYP, "asynFloat64")
    field(INP,  "@asyn($(PORT),$(ADDR),$(TIMEOUT))PICAM_MODULATION_OUTPUT_SIGNAL_AMPLITUDE")

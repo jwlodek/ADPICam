@@ -1,0 +1,13 @@
+file "ADBase_settings.req", P=$(P), R=$(R)
+$(P)$(R)AdcAnalogGain
+$(P)$(R)AdcBitDepth
+$(P)$(R)AdcSpeed
+$(P)$(R)CorrectPixelBias
+$(P)$(R)ReadoutPortCount
+$(P)$(R)Temperature
+$(P)$(R)ReadoutControlMode
+$(P)$(R)CleanCycleHeight
+$(P)$(R)ReadoutCount
+$(P)$(R)VerticalShiftRate
+$(P)$(R)SensorTemperatureStatus
+
